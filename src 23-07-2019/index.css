@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*Custom*/
+
+.brand-logo {
+	margin-left: 10px;
+}
+
+.logout-button {
+	color: black;
+}
+
+.my-container {
+  width: 90%;
+  margin: auto;
+}
+
+thead {
+  background: #343a40;
+  color: #fff;
+}
+
+th {
+  border: 1px solid white;
+  border-radius: 0px;
+}
+
+td {
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+
+.navbar-fixed {
+  margin-bottom: 30px;
+}
+.MuiInput-underline:before {
+  content: none !important;
+}
+.MuiInput-underline:after {
+  border-bottom: 0px solid black !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before{
+  border-bottom: none !important;
+}
+
+
+/* Select styles 
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid #26a69a !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #26a69a !important;
+}
+*/
+.MuiFormLabel-root.Mui-focused {
+  color: #26a69a !important;
+}
+
+/* AppBar styles */
+.PrivateTabIndicator-colorSecondary-65 {
+  background-color: black !important;
+}
+
+button:focus {
+  background-color: white !important;
+}
+                            
+
+.QuestionBtn:focus {
+  background: #3f51b5 !important;
+}
